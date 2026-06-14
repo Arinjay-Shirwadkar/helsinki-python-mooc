@@ -1,2 +1,10 @@
 from math import sqrt
-# Write your solution here
+
+while True:
+    n = int(input("Please type in a number"))
+    if n==0:
+        print("Exiting...")
+        break
+    elif n<0:
+        print("Invalid number")
+    else: print(sqrt(n))

@@ -1,1 +1,5 @@
-# Write your solution here
+a = int(input("Enter Number 1: "))
+b = int(input("Enter Number 2: "))
+c = int(input("Enter Number 3: "))
+d = int(input("Enter Number 4: "))
+print("The sum of the numbers is",(a+b+c+d),"and the mean is",((a+b+c+d)/4))
