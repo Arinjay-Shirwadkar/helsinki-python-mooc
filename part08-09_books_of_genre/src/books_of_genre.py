@@ -16,3 +16,9 @@ class Book:
 # -----------------------------
 # Write your solution here
 # -----------------------------
+def books_of_genre(books: list, genre: str):
+    sol=[]
+    for book in books:
+        if book.genre==genre:
+            sol.append(book)
+    return sol
